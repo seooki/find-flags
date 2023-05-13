@@ -1,0 +1,23 @@
+.countryCard {
+  width: 100%;
+  position: absolute;
+  padding: 30px;
+  display: flex;
+  box-shadow: grey 0 0 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  .flags {
+    img {
+      width: 200px;
+      margin-bottom: 10px;
+      margin-right: 30px;
+    }
+  }
+
+  .name {
+    p {
+      line-height: 25px;
+    }
+  }
+}
