@@ -7,6 +7,7 @@ export function CountryInfoView(props) {
   const [iso, setIso] = useState("");
   const [flags, setFlags] = useState("");
   const [dataBoolean, setDataBoolean] = useState(false);
+
   useEffect(() => {
     setEngName(props.data.country_eng_nm);
     setName(props.data.country_nm);
